@@ -48,7 +48,7 @@ document.querySelectorAll(".js-whatsapp").forEach((link) => {
         content_name: "WhatsApp HGW",
         contact_channel: "whatsapp"
       });
-      fbq("track", "Contact", {
+      fbq("trackCustom", "WhatsAppClick", {
         content_name: "WhatsApp HGW",
         contact_channel: "whatsapp"
       });
